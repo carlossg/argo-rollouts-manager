@@ -87,6 +87,8 @@ spec:
           verbs:
           - get
           - list
+          - patch
+          - update
           - watch
         - apiGroups:
           - ""
@@ -331,6 +333,7 @@ spec:
           - watch
         - apiGroups:
           - traefik.containo.us
+          - traefik.io
           resources:
           - traefikservices
           verbs:
